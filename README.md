@@ -25,7 +25,7 @@ Open your `build.gradle` and make sure that Maven Central repository is declared
 ```
 Then, include the library as dependency:
 ```gradle
-compile 'com.github.gcacace:signature-pad:1.2.0'
+compile 'com.github.ruanchengzhi:signature-pad:1.2.0'
 ```
 
 ### For Maven users
@@ -33,7 +33,7 @@ compile 'com.github.gcacace:signature-pad:1.2.0'
 Add this dependency to your `pom.xml`:
 ```xml
 <dependency>
-  <groupId>com.github.gcacace</groupId>
+  <groupId>com.github.ruanchengzhi</groupId>
   <artifactId>signature-pad</artifactId>
   <version>1.2.0</version>
   <type>aar</type>
@@ -47,7 +47,7 @@ Add this dependency to your `pom.xml`:
 1. Add the `SignaturePad` view to the layout you want to show.
     ```xml
 
- <com.github.gcacace.signaturepad.views.SignaturePad
+ <com.github.ruanchengzhi.signaturepad.views.SignaturePad
      xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:app="http://schemas.android.com/apk/res-auto"
      android:id="@+id/signature_pad"
